@@ -9,7 +9,16 @@ import { showNotification as show } from './helpers/helpers';
 
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ["rumor","happen","match","sail","sick","floor","summit","shadow","census","chorus","launch","abbey","eject","resist","guilt","repeat","drama","easy",
+  "morsel","swipe","equip","reader","pray","grave","cord","cheek","figure","rebel","native","rack","fade","basket","reform","hall","area","root","breeze","shift",
+  "cane","cash","hour","galaxy","breed","straw","offset","speech","appear","porter","mosque","flush","sheet","whip","finger","suite","glare","base","catch",
+  "critic","circle","block","talk","salad","bronze","occupy","morale","policy","weak","narrow","essay","direct","aware","worth","choose","outer","stamp",
+  "agile","weave","case","lift","shell","liver","safari","linear","star","makeup","snack","snow","cope","fault","alive","ideal","foot","reduce","solid","inch",
+  "arise","master","tile","watch","pillow","waist","spit","spirit","host","dinner","dine","gown","slip","give","still","item","cancer","guitar","silk",
+  "fence", "space","danger","tract","racism","month","stream","sample","knot","outfit","decide","fair","runner","pain","brown","skate","dome","minor","text",
+  "wander","heel","lemon","find","braid","gold","design","seal","title","abuse","bake","king","mile","wine","voice","steep","take","club","hold","center",
+  "filter","shower","blue","bread","enemy","lean","dress","gravel","know","jacket","navy","tone","exact","arch","stake","last","slap","spell","stitch","jest",
+  "tiptoe","grain","deck","fire","tired","fight","common"];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
